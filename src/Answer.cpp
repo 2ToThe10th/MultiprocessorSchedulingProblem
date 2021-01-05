@@ -5,7 +5,7 @@
 #include "Answer.h"
 
 #include <utility>
-Answer::Answer(int answer, std::vector<Machine *> machines) : answer(answer), machines(std::move(machines)) {}
+Answer::Answer(size_t answer, std::vector<Machine *> machines) : answer(answer), machines(std::move(machines)) {}
 
 std::string Answer::ToString() {
   std::string res;

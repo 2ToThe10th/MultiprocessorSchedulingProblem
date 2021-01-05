@@ -10,13 +10,13 @@
 #include "Machine.h"
 class Answer {
  private:
-  int answer;
+  size_t answer;
   std::vector<Machine*> machines;
 
  public:
   int GetAnswer() const;
 
-  Answer(int answer, std::vector<Machine*> machines);
+  Answer(size_t answer, std::vector<Machine*> machines);
 
   std::string ToString();
 
