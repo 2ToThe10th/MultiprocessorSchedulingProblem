@@ -1,0 +1,23 @@
+dist: focal
+
+language: cpp
+
+os:
+  - linux
+
+compiler:
+  - gcc
+
+script:
+  - mkdir cmake-build
+  - cd cmake-build
+  - cmake ../
+  - make
+  - ./MultiprocessorSchedulingProblem
+
+notifications:
+  email:
+    recipients:
+      - grib.a@phystech.edu
+    on_success: always
+    on_failure: always
