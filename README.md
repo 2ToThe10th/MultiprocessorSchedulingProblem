@@ -2,7 +2,7 @@
 
 [![Build Status](https://www.travis-ci.com/2ToThe10th/MultiprocessorSchedulingProblem.svg?branch=master)](https://www.travis-ci.com/2ToThe10th/MultiprocessorSchedulingProblem)
 
-[Задача об оптимальном расписании в overleaf](https://ru.overleaf.com/read/gbtkvwnmtgjt)
+[Задача об оптимальном расписании в overleaf](https://overleaf.com/project/5ff34dfa9722fac20c567bd1)
 
 
 In the project, the problem of optimal scheduling is considered when the performance of all machines is equal. This problem is also known as the multi-processor scheduling problem. The NP-completeness is proven, a heuristic algorithm is constructed, and it is shown to provide a 1.33-approximation.
